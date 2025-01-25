@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{url_for('static', filename='Gym web 2.css')}}">
+    <title>Muscle N Strength</title>
+</head>
+<body>
+    
+    <!--Header section code-->
+    
+    <header>
+
+        <a href="#" class="logo"><span>Muscle</span> & <span>Strength</span></a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/about us">About Us</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/review">Review</a></li>
+        </ul>
+
+        <div class="top-btn">
+            <a href="#" class="nav-btn">Join Us</a>
+        </div>
+    </header>
+
+     <!--Services Section Code--> 
+     
+     <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        
+        <div class="services-content">
+            <div class="row">
+                <img src="{{url_for('static', filename='Assets/image1.jpg')}}" alt="">
+
+                <h4>Physical Fitness</h4>
+            </div>
+
+            <div class="row">
+                <img src="{{url_for('static', filename='Assets/image2.jpg')}}" alt="">
+
+                <h4>Weight Gaining</h4>
+            </div>
+
+            <div class="row">
+                <img src="{{url_for('static', filename='Assets/image3.jpg')}}" alt="">
+
+                <h4>Strength Training</h4>
+            </div>
+
+            <div class="row">
+                <img src="{{url_for('static', filename='Assets/image4.jpg')}}" alt="">
+
+                <h4>Fat Lose</h4>
+            </div>
+
+            <div class="row">
+                <img src="{{url_for('static', filename='Assets/image5.jpg')}}" alt="">
+
+                <h4>Weight Lifting</h4>
+            </div>
+
+            <div class="row">
+                <img src="{{url_for('static', filename='Assets/about.jpg')}}" alt="">
+
+                <h4>Running</h4>
+            </div>
+        </div>
+
+     </section>
+
+    <!--Footer Section Code-->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <p class="copyright">
+            &copy; Muscle & Strength 2024 - All Rights Reserved
+        </p>
+    </footer>
+
+
+
+</body>
+</html>

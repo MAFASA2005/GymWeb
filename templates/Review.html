@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{url_for('static', filename='Gym web 2.css')}}">
+    <title>Muscle N Strength</title>
+</head>
+<body>
+    
+    <!--Header section code-->
+    
+    <header>
+
+        <a href="#" class="logo"><span>Muscle</span> & <span>Strength</span></a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/about us">About Us</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/review">Review</a></li>
+        </ul>
+
+        <div class="top-btn">
+            <a href="#" class="nav-btn">Join Us</a>
+        </div>
+    </header>
+
+     <!--Review Section Code-->
+
+     <section class="review" id="review">
+        <div class="review-box">
+            <h2 class="heading">Client <span>Reviews</span></h2>
+
+            <div class="wrapper">
+                <div class="review-item">
+                    <img src="{{url_for('static', filename='Assets/1.jpg')}}" alt="">
+                   <h2>Jhon</h2>
+                   <div class="rating">
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                   </div>
+
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui autem assumenda odit aspernatur quia illum quam repudiandae tenetur saepe.</p>
+
+                </div>
+
+                <div class="review-item">
+                    <img src="{{url_for('static', filename='Assets/2.jpg')}}" alt="">
+                   <h2>Steve</h2>
+                   <div class="rating">
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                   </div>
+                    
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui autem assumenda odit aspernatur quia illum quam repudiandae tenetur saepe.</p>
+
+                </div>
+
+                <div class="review-item">
+                    <img src="{{url_for('static', filename='Assets/3.jpg')}}" alt="">
+                   <h2>David</h2>
+                   <div class="rating">
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                       <i class='bx bxs-star' id="star"></i>
+                   </div>
+                    
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui autem assumenda odit aspernatur quia illum quam repudiandae tenetur saepe.</p>
+
+                </div>
+            </div>            
+        </div>
+     </section>
+
+    <!--Footer Section Code-->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <p class="copyright">
+            &copy; Muscle & Strength 2024 - All Rights Reserved
+        </p>
+    </footer>
+
+
+
+</body>
+</html>
